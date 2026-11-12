@@ -1,0 +1,72 @@
+byte t=0 scaleUp(0,255) => 0000000000000000
+byte t=0 scaleDown(0,255) => 0000000000000000
+byte t=0 scaleUpAndSet(0,0) => 0000000000000000 0000000000000000
+byte t=0 scaleUpAndSet(0,255) => 0000000000000000 406fe00000000000
+byte t=0 scaleUpAndSet(NO_THRESHOLD,255) => c128a92000000000 406fe00000000000
+byte t=0 setThreshold(dark=0,inverted=0) => 0000000000000000 0000000000000000
+byte t=0 setThreshold(dark=0,inverted=1) => 0000000000000000 406fe00000000000
+byte t=0 setThreshold(dark=1,inverted=0) => 0000000000000000 406fe00000000000
+byte t=0 setThreshold(dark=1,inverted=1) => 0000000000000000 0000000000000000
+byte t=73 scaleUp(0,255) => 4052400000000000
+byte t=73 scaleDown(0,255) => 4052400000000000
+byte t=73 scaleUpAndSet(0,73) => 0000000000000000 4052400000000000
+byte t=73 scaleUpAndSet(73,255) => 4052400000000000 406fe00000000000
+byte t=73 scaleUpAndSet(NO_THRESHOLD,255) => c128a92000000000 406fe00000000000
+byte t=73 setThreshold(dark=0,inverted=0) => 0000000000000000 4052400000000000
+byte t=73 setThreshold(dark=0,inverted=1) => 4052400000000000 406fe00000000000
+byte t=73 setThreshold(dark=1,inverted=0) => 4052400000000000 406fe00000000000
+byte t=73 setThreshold(dark=1,inverted=1) => 0000000000000000 4052400000000000
+byte t=128 scaleUp(0,255) => 4060000000000000
+byte t=128 scaleDown(0,255) => 4060000000000000
+byte t=128 scaleUpAndSet(0,128) => 0000000000000000 4060000000000000
+byte t=128 scaleUpAndSet(128,255) => 4060000000000000 406fe00000000000
+byte t=128 scaleUpAndSet(NO_THRESHOLD,255) => c128a92000000000 406fe00000000000
+byte t=128 setThreshold(dark=0,inverted=0) => 0000000000000000 4060000000000000
+byte t=128 setThreshold(dark=0,inverted=1) => 4060000000000000 406fe00000000000
+byte t=128 setThreshold(dark=1,inverted=0) => 4060000000000000 406fe00000000000
+byte t=128 setThreshold(dark=1,inverted=1) => 0000000000000000 4060000000000000
+byte t=255 scaleUp(0,255) => 406fe00000000000
+byte t=255 scaleDown(0,255) => 406fe00000000000
+byte t=255 scaleUpAndSet(0,255) => 0000000000000000 406fe00000000000
+byte t=255 scaleUpAndSet(255,255) => 406fe00000000000 406fe00000000000
+byte t=255 scaleUpAndSet(NO_THRESHOLD,255) => c128a92000000000 406fe00000000000
+byte t=255 setThreshold(dark=0,inverted=0) => 0000000000000000 406fe00000000000
+byte t=255 setThreshold(dark=0,inverted=1) => 406fe00000000000 406fe00000000000
+byte t=255 setThreshold(dark=1,inverted=0) => 406fe00000000000 406fe00000000000
+byte t=255 setThreshold(dark=1,inverted=1) => 0000000000000000 406fe00000000000
+short t=0 scaleUp(0,65535) => 0000000000000000
+short t=0 scaleDown(0,65535) => 0000000000000000
+short t=0 scaleUpAndSet(0,0) => 0000000000000000 0000000000000000
+short t=0 scaleUpAndSet(0,65535) => 0000000000000000 41700feff0000000
+short t=0 scaleUpAndSet(NO_THRESHOLD,65535) => c128a92000000000 40efffe000000000
+short t=0 setThreshold(dark=0,inverted=0) => 0000000000000000 0000000000000000
+short t=0 setThreshold(dark=0,inverted=1) => 0000000000000000 40efffe000000000
+short t=0 setThreshold(dark=1,inverted=0) => 0000000000000000 40efffe000000000
+short t=0 setThreshold(dark=1,inverted=1) => 0000000000000000 0000000000000000
+short t=73 scaleUp(0,65535) => 40d2524000000000
+short t=73 scaleDown(0,65535) => 3fd22dd22dd22dd2
+short t=73 scaleUpAndSet(0,73) => 0000000000000000 40d2524000000000
+short t=73 scaleUpAndSet(73,65535) => 40d2524000000000 41700feff0000000
+short t=73 scaleUpAndSet(NO_THRESHOLD,65535) => c128a92000000000 40efffe000000000
+short t=73 setThreshold(dark=0,inverted=0) => 0000000000000000 40d2524000000000
+short t=73 setThreshold(dark=0,inverted=1) => 40d2524000000000 40efffe000000000
+short t=73 setThreshold(dark=1,inverted=0) => 40d2524000000000 40efffe000000000
+short t=73 setThreshold(dark=1,inverted=1) => 0000000000000000 40d2524000000000
+short t=128 scaleUp(0,65535) => 40e0100000000000
+short t=128 scaleDown(0,65535) => 3fdfe01fe01fe020
+short t=128 scaleUpAndSet(0,128) => 0000000000000000 40e0100000000000
+short t=128 scaleUpAndSet(128,65535) => 40e0100000000000 41700feff0000000
+short t=128 scaleUpAndSet(NO_THRESHOLD,65535) => c128a92000000000 40efffe000000000
+short t=128 setThreshold(dark=0,inverted=0) => 0000000000000000 40e0100000000000
+short t=128 setThreshold(dark=0,inverted=1) => 40e0100000000000 40efffe000000000
+short t=128 setThreshold(dark=1,inverted=0) => 40e0100000000000 40efffe000000000
+short t=128 setThreshold(dark=1,inverted=1) => 0000000000000000 40e0100000000000
+short t=255 scaleUp(0,65535) => 40efffe000000000
+short t=255 scaleDown(0,65535) => 3fefc03fc03fc040
+short t=255 scaleUpAndSet(0,255) => 0000000000000000 40efffe000000000
+short t=255 scaleUpAndSet(255,65535) => 40efffe000000000 41700feff0000000
+short t=255 scaleUpAndSet(NO_THRESHOLD,65535) => c128a92000000000 40efffe000000000
+short t=255 setThreshold(dark=0,inverted=0) => 0000000000000000 40efffe000000000
+short t=255 setThreshold(dark=0,inverted=1) => 40efffe000000000 40efffe000000000
+short t=255 setThreshold(dark=1,inverted=0) => 40efffe000000000 40efffe000000000
+short t=255 setThreshold(dark=1,inverted=1) => 0000000000000000 40efffe000000000

@@ -1,0 +1,25 @@
+# MoonBit build artifacts
+/_build/
+/.moon/
+/.moon_lock
+/moon.pkg.lock
+
+# generated interface files
+/pkg.generated.mbti
+/cmd/*/pkg.generated.mbti
+
+# dependencies
+/.mooncakes/
+
+# the output of the verification run
+/verify/out/
+/verify/images/
+/verify/edge_images/
+
+# the compiled Java reference harness
+/ref/harness/out/
+/ref/harness/tools/out/
+
+# editors and OS
+.DS_Store
+*.swp

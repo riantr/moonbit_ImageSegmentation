@@ -1,0 +1,4 @@
+import {
+  "riantr/moonbit_ImageSegmentation/internal/zlib",
+  "moonbitlang/core/math",
+}

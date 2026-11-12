@@ -1,0 +1,63 @@
+// Generated using `moon info`, DON'T EDIT IT
+package "riantr/moonbit_ImageSegmentation/internal/zlib"
+
+// Values
+pub fn adler32(Bytes) -> Int32
+
+pub fn adler32_fixed(FixedArray[Byte]) -> Int32
+
+pub fn crc32(Bytes) -> UInt32
+
+pub fn crc32_fixed(FixedArray[Byte]) -> UInt32
+
+pub let default_max_decompressed_size : Int32
+
+pub fn deflate_compress(Bytes) -> Bytes
+
+pub fn deflate_compress_best(Bytes) -> Bytes
+
+pub fn deflate_compress_fixed(Bytes) -> Bytes
+
+pub fn deflate_compress_stored(Bytes) -> Bytes
+
+pub fn deflate_decompress(Bytes, max_size? : Int32) -> Bytes raise ZlibError
+
+pub fn deflate_decompress_at(Bytes, Int32, max_size? : Int32) -> (Bytes, Int32) raise ZlibError
+
+pub fn gzip_compress(Bytes) -> Bytes
+
+pub fn gzip_compress_stored(Bytes) -> Bytes
+
+pub fn gzip_decompress(Bytes, max_size? : Int32) -> Bytes raise ZlibError
+
+pub fn gzip_decompress_at(Bytes, Int32, max_size? : Int32) -> (Bytes, Int32) raise ZlibError
+
+pub fn zlib_compress(Bytes) -> Bytes
+
+pub fn zlib_compress_stored(Bytes) -> Bytes
+
+pub fn zlib_decompress(Bytes, max_size? : Int32) -> Bytes raise ZlibError
+
+pub fn zlib_decompress_at(Bytes, Int32, max_size? : Int32) -> (Bytes, Int32) raise ZlibError
+
+pub fn zlib_decompress_stored(Bytes, max_size? : Int32) -> Bytes raise ZlibError
+
+pub fn zlib_decompress_stored_at(Bytes, Int32, max_size? : Int32) -> (Bytes, Int32) raise ZlibError
+
+// Errors
+#derive(Eq)
+pub(all) suberror ZlibError {
+  InvalidData(String)
+  OutputTooLarge(String)
+}
+pub fn ZlibError::equal(Self, Self) -> Bool
+pub fn ZlibError::not_equal(Self, Self) -> Bool
+pub fn ZlibError::output(Self, &Logger) -> Unit
+pub fn ZlibError::to_string(Self) -> String
+pub impl Show for ZlibError
+
+// Types and methods
+
+// Type aliases
+
+// Traits

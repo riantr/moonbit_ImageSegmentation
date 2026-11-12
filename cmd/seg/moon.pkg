@@ -1,0 +1,9 @@
+import {
+  "riantr/moonbit_ImageSegmentation",
+  "riantr/moonbit_ImageSegmentation/cmd/seg/fs",
+  "moonbitlang/core/encoding/utf8",
+  "moonbitlang/core/env",
+  "moonbitlang/core/string",
+}
+
+pkgtype(kind: "executable")

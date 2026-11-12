@@ -1,0 +1,23 @@
+{
+  "module": "riantr/moonbit_ImageSegmentation",
+  "version": "0.1.0",
+  "report": "reports/lunaflow/riantr_moonbit_segmentation_0.1.0.md",
+  "files": 36,
+  "functions": 348,
+  "statements": 4537,
+  "unsupported_statements": 262,
+  "trace_events": 236533,
+  "steps": 37263,
+  "elapsed_ms": 2509,
+  "dead_code": 0,
+  "unreachable": 0,
+  "infinite_loop": 0,
+  "taint_sinks": 34,
+  "range_vars": 74,
+  "level": 1,
+  "abstract_findings": 0,
+  "vcs_proved": 0,
+  "vcs_failed": 0,
+  "vcs_unknown": 0,
+  "slices": 0
+}

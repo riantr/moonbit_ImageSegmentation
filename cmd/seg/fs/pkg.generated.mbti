@@ -1,0 +1,20 @@
+// Generated using `moon info`, DON'T EDIT IT
+package "riantr/moonbit_ImageSegmentation/cmd/seg/fs"
+
+// Values
+pub fn create_dir(String) -> Unit raise IOError
+
+pub fn read_file_to_bytes(String) -> Bytes raise IOError
+
+pub fn write_bytes_to_file(String, Bytes) -> Unit raise IOError
+
+// Errors
+pub(all) suberror IOError {
+  IOError(String)
+}
+
+// Types and methods
+
+// Type aliases
+
+// Traits
